@@ -11,7 +11,8 @@ xdebug.show_local_vars = 1
 
 
 # docker-compose.yml
+```
 #php   
 volumes:   
     - './conf/php/xdebug.ini:/usr/local/etc/php/conf.d/99-xdebug.ini'
-
+```
